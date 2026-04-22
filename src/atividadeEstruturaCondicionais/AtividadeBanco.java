@@ -11,6 +11,15 @@ public class AtividadeBanco {
 		int cod;
 		float saldo = 1000.0f, deposito, saque;
 		
+		System.out.println("""
+			    ====== CALCULADORA ======
+			    Código | Operação
+			    -------------------------
+			    1      | Saldo
+			    2      | Saque
+			    3      | Depósito
+			    """);
+		
 		System.out.print("Operação: ");
 		cod = scanner.nextInt();
 		
